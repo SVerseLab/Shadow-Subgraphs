@@ -1,13 +1,19 @@
 {
   "name": "blocks",
-  "description": "PancakeSwap Subgraph",
+  "description": "ShadowSwap Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
-  "author": "PancakeSwap",
+  "repository": "git@github.com:SVerseLab/Shadow-Subgraphs.git",
+  "author": "ShadowSwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/blocks subgraph.yaml"
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ shadowswap/blocks subgraph.yaml"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.37.6"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-ts": "^0.29.1"
   }
 }
