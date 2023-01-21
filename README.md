@@ -12,7 +12,7 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 
 6. **[Pairs](https://thegraph.com/legacy-explorer/subgraph/ShadowSwap/pairs)**: Tracks all ShadowSwap Pairs and Tokens.
 
-7. **[Shadow Puppet](https://thegraph.com/legacy-explorer/subgraph/ShadowSwap/pancake-squad)**: Tracks all Pancake Squad metrics with Owners, Tokens (including metadata), and Transactions.
+7. **[Shadow Puppet](https://thegraph.com/legacy-explorer/subgraph/ShadowSwap/pancake-squad)**: Tracks all Shadow Puppet  metrics with Owners, Tokens (including metadata), and Transactions.
 
 11. **[SmartChef](https://thegraph.com/legacy-explorer/subgraph/ShadowSwap/smartchef)**: Tracks all ShadowSwap SmartChef (a.k.a. Syrup Pools) with tokens and rewards.
 
